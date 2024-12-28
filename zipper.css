@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    font-family: sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 1vh;
+}
+
+.contain{
+    width: 100%;
+    height: 13vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin: 2.5% 3.5%;
+}
+
+.menu-bar {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin: 2.5% 3.5%;
+    
+}
+
+.fa-solid{
+    color: black;
+}
+
+.fa-regular {
+    color: black;
+}
+/* closing of navbar */
+
+.descript {
+    display: flex;
+    gap: 80px;
+}
+.image{
+    width: 45%;
+    
+}
+
+.details {
+    width: 40%;
+    background-color:#FFFFFF;
+}
+.rib {
+    position: relative;
+}
+
+.rib h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.code p {
+    color: grey;
+    font-size: 10px;
+}
+
+.rs {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+}
+/* Description */
+.desc h6{
+    font-size: 16px;
+    font-weight: 550;
+    
+}
+
+.about-desc{
+    color:black;
+    font-size: 12px;
+    font-weight: 400;
+}
+/* Fit */
+.about-fit{
+    display: flex;
+    gap: 60px;
+}
+
+.fit h6 {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.regular-fit p {
+    font-size: 15px;
+    line-height: 25.5px;
+    font-weight: 100;
+    margin-top: -4px;
+}
+
+.about-color{
+    display: flex;
+    gap: 30px;
+}
+/* Color Section */
+.color h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.radius {
+    display: flex;
+    gap: 10px;
+}
+
+
+.b-r{
+    height: 3vh;
+    width: 1.45vw;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.b-rt{
+    height: 3vh;
+    width: 1.45vw;
+    background-color:olive;
+    border-radius: 50%;
+    
+}
+/* Sizes */
+.about-sizes{
+    display: flex;
+    gap: 30px;
+}
+
+.size h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.sizex{
+    height: 4vh;
+    width: 8vw;
+    color: black;
+    margin-top: -4px;
+
+}
+.sizex a {
+    text-decoration: none;
+    display: flex;
+    gap: 2vw;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.guide {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.guide a {
+    font-size: 12px;
+    position: relative;
+    left: 15vw;
+    color: gray;
+    text-decoration: none;
+}
+/* ADD TO CART */
+.cart {
+    height: 6vh;
+    width: 36vw;
+    font-size: 12px;
+    border: 1px solid black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.cart button {
+    color: #310029;
+    border: none;
+    background-color: transparent;   
+}
+
+.about-gender{
+    display: flex;
+    gap: 30px;
+}
+
+.gender h6 {
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.male p {
+    font-size: 15px;
+    line-height: 25.5px;
+    font-weight: 100;
+    margin-top: -4px;
+}
+
+.border-one {
+    border: 1px solid black;
+}
+
+/* Closing of descript */
+
+.recomanded {
+    display: flex;
+    justify-content: center;
+}
+
+/* SHOW MORE */
+
+.det {
+    color: black;
+    font-size: 11px;
+
+}
+
+.color {
+    color: grey;
+    font-size: 8px;
+}
+
+.price {
+    color: black;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.latest-trends {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.latest-trends p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.enter {
+    display: flex;
+    justify-content: center;
+}
+
+.enter p {
+    color: #939393;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1px;
+}
+
+.e-mail {
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 44%;
+    border-color: transparent;
+    outline: none;
+    
+}
+
+.ruler {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 45%;
+    margin-top: 0.5%;
+    color: black; 
+    
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social p {
+    color: #939393;
+    font-size: 13px;
+    font-weight: 400; 
+    letter-spacing:2px ;
+}
+
+/* Footer */
+
+
+.footer {
+    overflow-x: hidden;
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.copyright {
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.cent {
+    margin: 0 8vw;
+}
+
+
+.card {
+    background-image: url(/images/bcw.webp);
+}
+                    
+

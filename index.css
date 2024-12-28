@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    font-family: sans-serif;
+    height: 100vh;
+}
+.contain{
+    width: 100%;
+    height: 13vh;
+    background-color:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin: 2.5% 3.5%;
+}
+
+.menu-bar {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin: 2.5% 3.5%;
+    
+}
+
+.fa-solid{
+    color: black;
+}
+
+.fa-regular {
+    color: black;
+}
+
+/* Styling for men navbar */
+
+.menubar-men .fa-solid {
+    color: white;
+    font-weight: 800;
+}
+
+.bag-men .fa-solid {
+    color: white;
+    font-weight: 800;
+}
+
+.user-men .fa-regular {
+    color: white;
+    font-weight: 800;
+}
+
+.search-iconMen .fa-solid {
+    color: white;
+    font-weight: 800;
+}
+
+
+
+
+/* Closing of Navbar men */
+
+.men-outfitter {
+   
+    display: flex;
+    gap: 2vw;
+    padding: 0 29vw;
+    color: white;
+    position: fixed;
+    bottom: 0; 
+    font-size: 15px;
+}
+
+.men-outfitter a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 2vw;
+}
+
+.women-outfitter {
+    display: flex;
+    gap: 2vw;
+    padding: 0 29vw;
+    color: white;
+    position: fixed;
+    bottom: 0; 
+    font-size: 15px;
+
+}
+
+.women-outfitter a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 2vw;
+}
+
+.latest-trends {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.latest-trends p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.enter {
+    display: flex;
+    justify-content: center;
+}
+
+.enter p {
+    color: #939393;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1px;
+}
+
+.e-mail {
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 44%;
+    border-color: transparent;
+    outline: none;
+    
+}
+
+.ruler {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 45%;
+    margin-top: 0.5%;
+    color: black; 
+    
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social p {
+    color: #939393;
+    font-size: 13px;
+    font-weight: 400; 
+    letter-spacing:2px ;
+}
+
+/* Footer */
+
+
+.footer {
+    overflow-x: hidden;
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.copyright {
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.cent {
+    margin: 0 8vw;
+}
